@@ -1,11 +1,5 @@
 {{#each tracksList}}
 
 <h1>{{name}}</h1>
-
-{{!-- ASK WHY LINE 6 PRINTS ONLY THE FIRST TRACK AND AUDIO --}}
-{{!-- <audio controls src="{{preview_url}}"> --}}
-<audio controls><source src="{{this.preview_url}}"></audio>
-
-
-
+<audio controls src="{{preview_url}}"></audio>
 {{/each}}
